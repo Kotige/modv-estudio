@@ -1,0 +1,18 @@
+# Node
+node_modules/
+
+# Build
+dist/
+.vite/
+
+# Ambiente
+.env
+.env.*
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+
+#Editor
+.vscode/
+.idea/

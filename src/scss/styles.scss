@@ -1,0 +1,20 @@
+// Import all of Bootstrap’s CSS
+@import "bootstrap/scss/bootstrap";
+@import "my-variables.scss";
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-custom-navbar {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.btn-primary {
+    background-color: $off-white-color;
+    color: $dark-color;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+}
