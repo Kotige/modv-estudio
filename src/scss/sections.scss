@@ -1,0 +1,19 @@
+/* =========================
+    general sections styles
+========================= */
+
+section {
+    margin: 0 !important;
+    padding: 0;
+    min-height: 100vh; // garante altura cheia, mas sem quebrar layout por diferença de vh real
+    display: flex;
+    align-items: center; // centraliza verticalmente o conteúdo
+    justify-content: center;
+}
+
+/* Remove margens internas dos textos */
+section h1,
+section p {
+    margin: 0;
+    padding: 0;
+}

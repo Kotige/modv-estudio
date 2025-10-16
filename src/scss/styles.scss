@@ -1,74 +1,38 @@
-// Import all of Bootstrap’s CSS
+/* =========================
+    bootstrap
+========================= */
 @import "bootstrap/scss/bootstrap";
+
+/* =========================
+    personalized variables
+========================= */
 @import "my-variables.scss";
 
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: $primary-color;
-    margin: 0; // garante que o body não tenha margem
-    padding: 0;
-}
+/* =========================
+    html and body
+========================= */
+@import "body.scss";
 
 /* =========================
-    Navbar
+    header and navbar
 ========================= */
-#menu {
-    padding-top: 10px;
-}
-
-.font-custom-navbar {
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 1.2em;
-}
+@import "navbar.scss";
 
 /* =========================
-    Botões
+    buttons
 ========================= */
-.btn-primary {
-    background-color: $off-white-color;
-    color: $dark-color;
-    text-transform: uppercase;
-    font-weight: 600;
-    border: none;
-}
+@import "buttons.scss";
 
 /* =========================
-    Seções gerais
+    general sections styles
 ========================= */
-section {
-    margin: 0 !important;
-    padding: 0;
-    min-height: 100vh; // garante altura cheia, mas sem quebrar layout por diferença de vh real
-    display: flex;
-    align-items: center; // centraliza verticalmente o conteúdo
-    justify-content: center;
-}
-
-/* Remove margens internas dos textos */
-section h1,
-section p {
-    margin: 0;
-    padding: 0;
-}
+@import "sections.scss";
 
 /* =========================
-    Seções específicas
+    specific sections styles
 ========================= */
-#home {
-    background-color: $primary-color;
-    color: $dark-color;
-}
-
-#services,
-#testimonials, footer {
-    background-color: $dark-color;
-    color: $off-white-color;
-    h1 {
-        color: $primary-color;
-    }
-}
+@import "home.scss";
+@import "services.scss";
+@import "testimonials.scss";
+@import "aboutus.scss";
+@import "footer.scss";

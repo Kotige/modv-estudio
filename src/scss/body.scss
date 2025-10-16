@@ -1,0 +1,17 @@
+
+@import "my-variables.scss";
+
+/* =========================
+    html and body
+========================= */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: $dark-color;
+    margin: 0; // garante que o body não tenha margem
+    padding: 0;
+}

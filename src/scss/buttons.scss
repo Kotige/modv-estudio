@@ -1,0 +1,13 @@
+@import "my-variables.scss";
+
+/* =========================
+    buttons
+========================= */
+
+.btn-primary {
+    background-color: $off-white-color;
+    color: $dark-color;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+}
