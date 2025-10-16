@@ -5,6 +5,18 @@
 ========================= */
 
 #home {
-    background-color: $primary-color;
+    background: linear-gradient(to bottom,
+    $primary-color 0%,
+    #83F2B5 100%,
+    );
     color: $dark-color;
+    padding-bottom: 0;
+    h1 {
+        font-weight: 800;
+        font-size: 4rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
 }

@@ -8,6 +8,13 @@
     background-color: $off-white-color;
     color: $dark-color;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 800;
+    font-size: 1.3em;
     border: none;
+    padding: .5rem 8rem;
+    transition: all 0.4s ease;
+    &:hover {
+        background-color: $dark-color;
+        color: $off-white-color;
+    }
 }

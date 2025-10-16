@@ -6,6 +6,9 @@
 
 header {
     background-color: $primary-color;
+    img {
+        margin-left: 3rem;
+    }
 }
 
 #menu {
@@ -15,9 +18,9 @@ header {
 .font-custom-navbar {
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .nav-item {
-    padding-right: 2rem;
+    margin-right: 3rem;
 }
