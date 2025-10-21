@@ -7,8 +7,14 @@
 
 #services {
     background-color: $dark-color;
+    background-image: url('../assets/images/module_mobile.png');
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    position: relative;
     color: $off-white-color;
     h1 {
         color: $primary-color;
+        font-size: clamp(3rem, 4vw + 1rem, 5rem);
     }
 }

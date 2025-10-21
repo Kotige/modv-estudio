@@ -4,7 +4,7 @@ import img3 from '../assets/images/logo.png';
 import img4 from '../assets/images/faixa.png';
 import img5 from '../assets/images/logo.png';
 
-export function initCarousel() {
+export function initVisualID() {
     const images = [
         { src: img1, link: "#" },
         { src: img2, link: "#" },

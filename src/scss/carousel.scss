@@ -8,8 +8,28 @@
         transition: all 0.5s ease;
     }
 
+    .main-site {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        transition: all 0.5s ease;
+    }
+
     .small-images {
         .small-img {
+        width: 100%;
+        object-fit: cover;
+        cursor: pointer;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+
+            &:hover {
+                transform: scale(1.02);
+            }
+        }
+    }
+
+    .small-sites {
+        .small-site {
         width: 100%;
         object-fit: cover;
         cursor: pointer;
@@ -51,6 +71,14 @@
             flex-direction: row !important;
 
             .small-img {
+                width: 48%;
+            }
+        }
+
+        .small-sites {
+            flex-direction: row !important;
+
+            .small-site {
                 width: 48%;
             }
         }
