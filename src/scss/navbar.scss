@@ -31,6 +31,9 @@ header {
 }
 
 .img-fluid-clamp {
-    width: clamp(140px, 15vw, 160px);
+    width: clamp(140px, 5vw, 200px);
     height: auto;
+    @include media-breakpoint-up(lg) {
+        margin-left: 6rem;
+    }
 }
