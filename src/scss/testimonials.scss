@@ -5,9 +5,10 @@
 ========================= */
 
 #testimonials {
-    background-color: $dark-color;
-    color: $off-white-color;
+    background-color: $primary-color;
+    color: $dark-color;
     h1 {
-        color: $primary-color;
+        font-size: clamp(3rem, 4vw + 1rem, 5rem);
+        color: $dark-color;
     }
 }
