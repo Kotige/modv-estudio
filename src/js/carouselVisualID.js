@@ -1,12 +1,12 @@
-import img1 from '../assets/images/logo.png';
-import img2 from '../assets/images/faixa.png';
-import img3 from '../assets/images/logo.png';
+import img1 from '../assets/images/fucinn-cover.png';
+import img2 from '../assets/images/fucinn-cover.png';
+import img3 from '../assets/images/fucinn-cover.png';
 import img4 from '../assets/images/faixa.png';
 import img5 from '../assets/images/logo.png';
 
 export function initVisualID() {
     const images = [
-        { src: img1, link: "#" },
+        { src: img1, link: "../fucinn.html"},
         { src: img2, link: "#" },
         { src: img3, link: "#" },
         { src: img4, link: "#" },
