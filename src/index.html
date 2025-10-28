@@ -65,18 +65,24 @@
     </section>
     <!-- Services -->
     <section class="container-fluid d-flex flex-column text-center mt-5" id="services">
-        <div id="visual-identities mb-5">
-            <h1>Identidade Vistual</h1>
+        <div id="visual-identities">
+            <h1 class="text-center text-lg-start">Identidade</h1>
+            <h1 class="text-center text-lg-start">Visual</h1>
             <div class="custom-carousel container my-5">
                 <div class="row align-items-center">
-                    <div class="col-12 col-lg-8 position-relative">
-                        <a href="fucinn.html" id="main-link">
-                            <img src="img1.jpg" alt="Imagem principal" class="img-fluid main-img rounded shadow">
+                    <div class="col-12 col-lg-8 position-relative main-img-container">
+                        <a href="#" id="main-link">
+                            <img src="img1.jpg" alt="Imagem principal" class="img-fluid main-img shadow">
+                            <div class="main-img-overlay">
+                                <h3 id="main-overlay-title" class="mb-3"></h3>
+                                <p class="mb-2">Projeto Identidade Visual</p>
+                                <button class="btn btn-secondary">Visitar Projeto</button>
+                            </div>
                         </a>
                     </div>
                     <div class="col-12 col-lg-4 d-flex flex-lg-column justify-content-between mt-3 mt-lg-0 small-images">
-                        <img src="img2.jpg" alt="Imagem secundária 1" class="img-fluid rounded shadow small-img mb-lg-3 me-2 me-lg-0">
-                        <img src="img3.jpg" alt="Imagem secundária 2" class="img-fluid rounded shadow small-img">
+                        <img src="img2.jpg" alt="Imagem secundária 1" class="img-fluid shadow small-img mb-lg-3 me-2 me-lg-0">
+                        <img src="img3.jpg" alt="Imagem secundária 2" class="img-fluid shadow small-img">
                     </div>
                 </div>
 
@@ -85,26 +91,29 @@
                 </button>
             </div>
         </div>
-        <div class="mt-5" id="web-design">
-            <h1>Sites e Web Design</h1>
-            <div class="custom-carousel container my-5">
-                <div class="row align-items-center">
-                    <div class="col-12 col-lg-8 position-relative">
-                        <a href="#" id="main-link">
-                            <img src="site.jpg" alt="Imagem principal" class="img-fluid main-site rounded shadow">
-                        </a>
-                    </div>
-                    <div class="col-12 col-lg-4 d-flex flex-lg-column justify-content-between mt-3 mt-lg-0 small-sites">
-                        <img src="site2.jpg" alt="Imagem secundária 1" class="img-fluid rounded shadow small-site mb-lg-3 me-2 me-lg-0">
-                        <img src="site3.jpg" alt="Imagem secundária 2" class="img-fluid rounded shadow small-site">
-                    </div>
-                </div>
 
-                <button class="carousel-arrow" id="next-btn">
-                    <img src="assets/images/seta.png" alt="Seta" class="img-fluid carousel-arrow-img">
-                </button>
+        <div class="custom-carousel container my-5">
+            <h1 class="text-center text-lg-start">Sites</h1>
+            <h1 class="text-center text-lg-start">e Web Design</h1>
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-8 position-relative">
+                    <a href="#" id="main-link-web">
+                        <img src="site.jpg" alt="Imagem principal" class="img-fluid main-site rounded shadow">
+                    </a>
+                </div>
+                <div class="col-12 col-lg-4 d-flex flex-lg-column justify-content-between mt-3 mt-lg-0 small-sites">
+                    <img src="site2.jpg" alt="Imagem secundária 1" class="img-fluid rounded shadow small-site mb-lg-3 me-2 me-lg-0">
+                    img src="site3.jpg" alt="Imagem secundária 2" class="img-fluid rounded shadow small-site">
+                </div>
             </div>
+
+            <button class="carousel-arrow" id="next-btn-web">
+                <img src="assets/images/seta.png" alt="Seta" class="img-fluid carousel-arrow-img">
+            </button>
         </div>
+
+
+
     </section>
     <!-- Depoimentos -->
     <section class="container-fluid text-center" id="testimonials">

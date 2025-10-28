@@ -1,8 +1,8 @@
-import site1 from '../assets/images/handmodv2.png';
-import site2 from '../assets/images/handmodv2.png';
-import site3 from '../assets/images/handmodv2.png';
-import site4 from '../assets/images/handmodv2.png';
-import site5 from '../assets/images/handmodv2.png';
+import site1 from '../assets/images/lavinia-cover2.png';
+import site2 from '../assets/images/lavinia-cover2.png';
+import site3 from '../assets/images/lavinia-cover2.png';
+import site4 from '../assets/images/lavinia-cover2.png';
+import site5 from '../assets/images/lavinia-cover2.png';
 
 export function initWebDesign() {
     const sites = [
@@ -16,9 +16,9 @@ export function initWebDesign() {
     let currentIndex = 0;
 
     const mainSite = document.querySelector(".main-site");
-    const mainLink = document.querySelector("#main-link");
+    const mainLink = document.querySelector("#main-link-web"); // novo ID
     const smallSites = document.querySelectorAll(".small-site");
-    const nextBtn = document.querySelector("#next-btn");
+    const nextBtn = document.querySelector("#next-btn-web"); // novo ID
 
     function updateCarousel() {
         const main = sites[currentIndex];
