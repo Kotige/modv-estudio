@@ -8,9 +8,18 @@
 footer {
     background-color: $dark-color;
     color: $off-white-color;
+    #footer-title {
+        margin: 6rem;
+    }
     h1 {
-        font-size: clamp(3rem, 4vw + 1rem, 5rem);
+        margin: 2rem;
+        font-weight: 800;
+        font-size: clamp(2rem, 4vw + 1rem, 3rem);
         color: $primary-color;
+
+        @include media-breakpoint-up(lg) {
+            margin: 5rem 15rem;
+        }
     }
     p {
         font-size: clamp(1rem, 1vw + 0.5rem, 1.25rem);
@@ -20,4 +29,16 @@ footer {
 .img-fluid-clamp {
     width: clamp(140px, 20vw, 600px);
     height: auto;
+}
+
+.social-icons {
+    background-color: $off-white-color;
+    text-decoration: none;
+    color: $dark-color;
+    font-size: 1.1rem;
+    
+    &:hover {
+        background-color: $primary-color;
+        
+    }
 }

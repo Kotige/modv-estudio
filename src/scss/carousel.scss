@@ -5,7 +5,7 @@
 
 
     .main-img {
-        border-radius: 80px !important;
+        border-radius: 40px !important;
         width: 100%;
         height: auto;
         object-fit: cover;
@@ -13,7 +13,7 @@
     }
 
     .main-site {
-        border-radius: 80px !important;
+        border-radius: 60px !important;
         width: 100%;
         height: auto;
         object-fit: cover;
@@ -22,7 +22,7 @@
 
     .small-images {
         .small-img {
-            border-radius: 50px !important;
+            border-radius: 20px !important;
             width: 100%;
             object-fit: cover;
             cursor: pointer;
@@ -117,7 +117,7 @@
         text-align: left;
         align-items: left;
         opacity: 0;
-        border-radius: 80px !important;
+        border-radius: 40px !important;
         transition: opacity 0.6s ease;
         pointer-events: none;
         padding: 4rem;
