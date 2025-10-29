@@ -8,7 +8,79 @@
     background-color: $primary-color;
     color: $dark-color;
     h1 {
-        font-size: clamp(3rem, 4vw + 1rem, 5rem);
+        font-size: clamp(2rem, 2.5vw + 1rem, 4rem);
+        font-weight: 800;
         color: $dark-color;
+        @include media-breakpoint-up(lg) {
+            margin-left: 6.5rem;
+        }
+    }
+
+    p {
+        padding: 0 3rem;
+        font-size: clamp(1rem, 1vw + 0.5rem, 1.25rem);
+        @include media-breakpoint-up(lg) {
+            margin-left: 6.5rem;
+            margin-right: 25rem;
+            padding: 0;
+        }
+    }
+
+    img {
+        @include media-breakpoint-up(lg) {
+            width: 85%;
+            padding: 0;
+            margin-left: 3.5rem;
+        }
+    }
+    #feedback {
+        background-image: url(../assets/images/feedback-mobile.png);
+        background-size:contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        @include media-breakpoint-up(lg) {
+            background-image: url(../assets/images/feedback-desktop.png);
+            background-size: contain;
+        }
+
+        position: relative;
+        width: 100%;
+        min-height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            position: absolute;
+            width: 75%;
+            max-width: 300px;
+            transition: transform 0.2s ease;
+            cursor: pointer;
+
+            @include media-breakpoint-up(lg) {
+                width: 100%;
+                max-width: 350px;
+            }
+
+            &:hover {
+                transform: scale(1.1);
+                z-index: 10;
+            }
+        }
+        img:nth-child(1) {top: -4%; left: 5%;}
+        img:nth-child(2) {top: 12%; right: 5%;}
+        img:nth-child(3) {top: 28%; left: 5%;}
+        img:nth-child(4) {top: 44%; right: 5%;}
+        img:nth-child(5) {top: 60%; left: 5%;}
+        img:nth-child(6) {top: 80%; right: 5%;}
+
+        @media (min-width: 992px) {
+            img:nth-child(1) { top: 5%; left: 0%; }
+            img:nth-child(2) { top: 0%; right: 10%; }
+            img:nth-child(3) { top: 40%; left: 5%; }
+            img:nth-child(4) { top: 70%; right: 55%; }
+            img:nth-child(5) { bottom: 0%; left: 45%; }
+            img:nth-child(6) { top: 25%; left: 50%; }
+        }
     }
 }
