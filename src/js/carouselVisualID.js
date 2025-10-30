@@ -1,5 +1,5 @@
-import img1 from '../assets/images/fucinn-cover.png';
-import img2 from '../assets/images/inove-cover.png';
+import img1 from '../assets/images/fucinn-cover.png'; 
+import img2 from '../assets/images/inove-cover.png'; 
 import img3 from '../assets/images/livia-cover.png';
 import img4 from '../assets/images/teteu-cover.png';
 import img5 from '../assets/images/tiebreak-cover.png';
@@ -9,7 +9,7 @@ export function initVisualID() {
     const images = [
         { src: img1, link: "../fucinn.html", title: "Fucinn" },
         { src: img2, link: "../inove.html", title: "Inove" },
-        { src: img3, link: "../livia.html", title: "Livia" },
+        { src: img3, link: "../livia.html", title: "Livia Rezende Fisioterapeuta" },
         { src: img4, link: "../teteu.html", title: "Teteu" },
         { src: img5, link: "../tiebreak.html", title: "Tiebreak" },
         { src: img6, link: "../vital.html", title: "Vital" }
@@ -28,14 +28,20 @@ export function initVisualID() {
         const next1 = images[(currentIndex + 1) % images.length];
         const next2 = images[(currentIndex + 2) % images.length];
 
-        mainImg.computedStyleMap.opacity = 0;
 
-        mainImg.src = main.src;
-        mainLink.href = main.link;
-        overlayTitle.textContent = main.title;
+        mainImg.style.opacity = 0;
 
-        smallImgs[0].src = next1.src;
-        smallImgs[1].src = next2.src;
+        setTimeout(() => {
+            mainImg.src = main.src;
+            mainLink.href = main.link;
+            overlayTitle.textContent = main.title;
+
+            smallImgs[0].src = next1.src;
+            smallImgs[1].src = next2.src;
+
+
+            mainImg.style.opacity = 1;
+        }, 300);
     }
 
     nextBtn.addEventListener("click", () => {
@@ -43,8 +49,17 @@ export function initVisualID() {
         updateCarousel();
     });
 
+    // Clique nas miniaturas
+    smallImgs.forEach((img, index) => {
+        img.addEventListener("click", () => {
+            currentIndex = (currentIndex + index + 1) % images.length;
+            updateCarousel();
+        });
+    });
+
     updateCarousel();
 
+    // Autoplay opcional (descomente se quiser)
     // setInterval(() => {
     //     currentIndex = (currentIndex + 1) % images.length;
     //     updateCarousel();

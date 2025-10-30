@@ -16,7 +16,7 @@
             <div class="container-fluid d-flex justify-content-between align-items-center">
                 <a class="navbar-brand" href="#top-page"><img src="assets/images/logo.png" class="img-fluid img-fluid-clamp" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="bi bi-list fs-1"></i>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end font-custom-navbar" id="navbarNav">
                     <ul class="navbar-nav mt-2">
@@ -65,52 +65,58 @@
     </section>
     <!-- Services -->
     <section class="container-fluid d-flex flex-column text-center mt-5" id="services">
-        <div id="visual-identities">
-            <h1 class="text-center text-lg-start ms-3">Identidade</h1>
-            <h1 class="text-center text-lg-start ms-3 mt-n2">Visual</h1>
-            <div class="custom-carousel container my-5">
-                <div class="row align-items-center">
-                    <div class="col-12 col-lg-8 position-relative main-img-container">
-                        <a href="#" id="main-link">
-                            <img src="img1.jpg" alt="Imagem principal" class="img-fluid main-img shadow">
-                            <div class="main-img-overlay">
-                                <h3 id="main-overlay-title" class="mb-3"></h3>
-                                <p class="mb-2">Projeto Identidade Visual</p>
-                                <button class="btn btn-secondary">Visitar Projeto</button>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-12 col-lg-4 d-flex flex-lg-column justify-content-between mt-3 mt-lg-0 small-images">
-                        <img src="img2.jpg" alt="Imagem secundária 1" class="img-fluid shadow small-img mb-lg-3 me-2 me-lg-0">
-                        <img src="img3.jpg" alt="Imagem secundária 2" class="img-fluid shadow small-img">
-                    </div>
-                </div>
-
-                <button class="carousel-arrow" id="next-btn">
-                    <img src="assets/images/seta.png" alt="Seta" class="img-fluid carousel-arrow-img">
-                </button>
-            </div>
-        </div>
-
+        <!-- Visual ID -->
+    <div id="visual-identities">
+        <h1 class="text-center text-lg-start ms-1">Identidade</h1>
+        <h1 class="text-center text-lg-start ms-1 mt-n2">Visual</h1>
         <div class="custom-carousel container my-5">
-            <h1 class="text-center text-lg-start ms-3">Sites e</h1>
-            <h1 class="text-center text-lg-start ms-3 mt-n2 mb-5">Web Design</h1>
             <div class="row align-items-center">
-                <div class="col-12 col-lg-8 position-relative">
-                    <a href="#" id="main-link-web">
-                        <img src="site.jpg" alt="Imagem principal" class="img-fluid main-site rounded shadow">
+                <div class="col-12 col-lg-8 position-relative main-img-container">
+                    <a href="#" id="main-link">
+                        <img src="img1.jpg" alt="Imagem principal" class="img-fluid main-img shadow">
+                        <div class="main-img-overlay">
+                            <h3 id="main-overlay-title" class="mb-3"></h3>
+                            <p class="mb-2">Projeto Identidade Visual</p>
+                            <button class="btn btn-secondary">Visitar Projeto</button>
+                        </div>
                     </a>
                 </div>
-                <div class="col-12 col-lg-4 d-flex flex-lg-column justify-content-between mt-3 mt-lg-0 small-sites">
-                    <img src="site2.jpg" alt="Imagem secundária 1" class="img-fluid rounded shadow small-site mb-lg-3 me-2 me-lg-0">
-                    img src="site3.jpg" alt="Imagem secundária 2" class="img-fluid rounded shadow small-site">
+                <div class="col-12 col-lg-4 d-flex flex-lg-column justify-content-between mt-3 mt-lg-0 small-images">
+                    <img src="img2.jpg" alt="Imagem secundária 1" class="img-fluid shadow small-img mb-lg-3 me-2 me-lg-0">
+                    <img src="img3.jpg" alt="Imagem secundária 2" class="img-fluid shadow small-img">
                 </div>
             </div>
-
-            <button class="carousel-arrow" id="next-btn-web">
+            <button class="carousel-arrow" id="next-btn">
                 <img src="assets/images/seta.png" alt="Seta" class="img-fluid carousel-arrow-img">
             </button>
         </div>
+    </div>
+
+<!-- Sites -->
+    <div class="custom-carousel container my-5">
+        <h1 class="text-center text-lg-start ms-1">Sites e</h1>
+        <h1 class="text-center text-lg-start ms-1 mt-n2 mb-5">Web Design</h1>
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-8 position-relative main-img-container">
+                <a href="#" id="main-link-web">
+                    <img src="site1.jpg" alt="Imagem principal" class="img-fluid main-site rounded shadow">
+                    <div class="main-img-overlay">
+                        <h3 id="main-overlay-title-web" class="mb-3"></h3>
+                        <p class="mb-2">Projeto Site</p>
+                        <button class="btn btn-secondary">Visitar Projeto</button>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-lg-4 d-flex flex-lg-column justify-content-between mt-3 mt-lg-0 small-sites">
+                <img src="site2.jpg" alt="Imagem secundária 1" class="img-fluid rounded shadow small-site mb-lg-3 me-2 me-lg-0">
+                <img src="site3.jpg" alt="Imagem secundária 2" class="img-fluid rounded shadow small-site">
+            </div>
+        </div>
+        <button class="carousel-arrow" id="next-btn-web">
+            <img src="assets/images/seta.png" alt="Seta" class="img-fluid carousel-arrow-img">
+        </button>
+    </div>
+
 
 
 
@@ -133,7 +139,7 @@
                 </div>
             </div>
             <div class="col-md-4 col-12">
-                <h1>Vídeos</h1>
+                <iframe width="350" height="540" src="https://www.youtube.com/embed/gGCwgCe3WtQ?si=n2ykWhPmHdYO_2HB" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
             </div>
         </div>
         <div class="row align-items-center mt-5">

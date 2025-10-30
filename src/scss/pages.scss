@@ -1,6 +1,14 @@
+@import "my-variables.scss";
+
 .pages {
-    margin: 0;
+    margin-bottom: .5rem;
+    margin-top: 0;
     padding: 0;
+    button {
+        color: $primary-color;
+        border: none;
+    }
+    
 }
 
 #service-img {
