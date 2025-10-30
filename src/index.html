@@ -7,6 +7,7 @@
     <script type="module" src="./js/main.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="shortcut icon" href="assets/icons/favcon-primary.ico" type="image/x-icon">
 </head>
 <body>
@@ -43,16 +44,16 @@
             <div class="row align-items-center">
             <div class="col-12 col-lg-6 d-flex flex-column justify-content-center  text-center text-lg-start">
                 <h1 class="mb-3 lh-1">Onde visual e tecnologia se encontram</h1>
-                <p class="my-3 lh-1">
+                <p class="my-3 lh-sm">
                 Trasformamos identidade visual e websites em soluções 
                 que conectam marcas e pessoas.
                 </p>
-                <button class="btn btn-primary rounded-pill align-self-center align-self-lg-start">
+                <button class="btn btn-primary rounded-pill align-self-center align-self-lg-start mt-3">
                 quero um orçamento!
                 </button>
             </div>
 
-            <div class="col-12 col-lg-6 text-center">
+            <div class="col-12 col-lg-6 text-center" id="hand-modv">
                 <img src="assets/images/handmodv2.png" class="img-fluid" alt="">
             </div>
             </div>
@@ -75,8 +76,9 @@
                     <a href="#" id="main-link">
                         <img src="img1.jpg" alt="Imagem principal" class="img-fluid main-img shadow">
                         <div class="main-img-overlay">
-                            <h3 id="main-overlay-title" class="mb-3"></h3>
-                            <p class="mb-2">Projeto Identidade Visual</p>
+                            <h3 id="main-overlay-title" class="mb-2"></h3>
+                            <p class="mb-1">Projeto Identidade Visual</p>
+                            <div class="d-flex mb-1"><i class='bi bi-geo-alt-fill me-2'></i><p class="mb-2" id="pin-location"></p></div>
                             <button class="btn btn-secondary">Visitar Projeto</button>
                         </div>
                     </a>
@@ -116,9 +118,6 @@
             <img src="assets/images/seta.png" alt="Seta" class="img-fluid carousel-arrow-img">
         </button>
     </div>
-
-
-
 
     </section>
     <!-- Depoimentos -->

@@ -7,12 +7,12 @@ import img6 from '../assets/images/vital-cover.png';
 
 export function initVisualID() {
     const images = [
-        { src: img1, link: "../fucinn.html", title: "Fucinn" },
-        { src: img2, link: "../inove.html", title: "Inove" },
-        { src: img3, link: "../livia.html", title: "Livia Rezende Fisioterapeuta" },
-        { src: img4, link: "../teteu.html", title: "Teteu" },
-        { src: img5, link: "../tiebreak.html", title: "Tiebreak" },
-        { src: img6, link: "../vital.html", title: "Vital" }
+        { src: img1, link: "../fucinn.html", title: "Fucinn Pet Lar", pin: "Rio de Janeiro - RJ" },
+        { src: img2, link: "../inove.html", title: "Inove Centro de Ensino", pin: "Cataguases - MG" },
+        { src: img3, link: "../livia.html", title: "Livia Rezende Fisioterapeuta", pin: "Oliveira - MG" },
+        { src: img4, link: "../teteu.html", title: "Teteu Moda Infantil", pin: "Capelinha - MG"},
+        { src: img5, link: "../tiebreak.html", title: "Tiebreak Encordoamento", pin: "Juiz de Fora - MG" },
+        { src: img6, link: "../vital.html", title: "Vital Material de Limpeza", pin: "Fortaleza - CE" }
     ];
 
     let currentIndex = 0;
@@ -20,6 +20,7 @@ export function initVisualID() {
     const mainImg = document.querySelector(".main-img");
     const mainLink = document.querySelector("#main-link");
     const overlayTitle = document.querySelector("#main-overlay-title");
+    const pinLocation = document.querySelector("#pin-location");
     const smallImgs = document.querySelectorAll(".small-img");
     const nextBtn = document.querySelector("#next-btn");
 
@@ -35,6 +36,7 @@ export function initVisualID() {
             mainImg.src = main.src;
             mainLink.href = main.link;
             overlayTitle.textContent = main.title;
+            pinLocation.textContent = main.pin;
 
             smallImgs[0].src = next1.src;
             smallImgs[1].src = next2.src;
