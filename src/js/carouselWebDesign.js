@@ -6,17 +6,18 @@ import site5 from '../assets/images/lavinia-cover2.png';
 
 export function initWebDesign() {
     const images = [
-        { src: site1, link: "../site1.html", title: "Lavínia Barra Fisioterapeuta" },
-        { src: site2, link: "../site2.html", title: "Site 2" },
-        { src: site3, link: "../site3.html", title: "Site 3" },
-        { src: site4, link: "../site4.html", title: "Site 4" },
-        { src: site5, link: "../site5.html", title: "Site 5" }
+        { src: site1, link: "../lavinia.html", title: "Lavínia Barra Fisioterapeuta", pin: "Piedade do Rio Grande - MG" },
+        { src: site2, link: "../site2.html", title: "Site 2", pin: "local 2" },
+        { src: site3, link: "../site3.html", title: "Site 3", pin: "local 3" },
+        { src: site4, link: "../site4.html", title: "Site 4", pin: "local 4" },
+        { src: site5, link: "../site5.html", title: "Site 5", pin: "local 5" }
     ];
 
     let currentIndex = 0;
     const mainImg = document.querySelector(".main-site");
     const mainLink = document.querySelector("#main-link-web");
     const overlayTitle = document.querySelector("#main-overlay-title-web");
+    const pinLocation = document.querySelector("#pin-location-web");
     const smallImgs = document.querySelectorAll(".small-site");
     const nextBtn = document.querySelector("#next-btn-web");
 
@@ -30,6 +31,7 @@ export function initWebDesign() {
             mainImg.src = main.src;
             mainLink.href = main.link;
             overlayTitle.textContent = main.title;
+            pinLocation.textContent = main.pin;
             smallImgs[0].src = next1.src;
             smallImgs[1].src = next2.src;
             mainImg.style.opacity = 1;

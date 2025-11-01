@@ -7,16 +7,20 @@
 #aboutus {
     background-color: $primary-color;
     background-image: url('../assets/images/module_desktop.png');
-    background-size: 130%;
+    background-size: 110%;
     background-position: right;
-    background-position-x: 150%;
+    background-position-x: 400%;
     background-position-y: top;
     background-repeat: no-repeat;
     position: relative;
     color: $dark-color;
     h1 {
-        font-size: clamp(3rem, 4vw + 1rem, 5rem);
+        font-weight: 800;
+        font-size: clamp(2rem, 2.5vw + 1rem, 4rem);
         color: $dark-color;
+        @include media-breakpoint-up(lg) {
+            margin-left: 6rem;
+        }
     }
     p {
         font-size: clamp(1rem, 1vw + 0.5rem, 1.25rem);
@@ -29,6 +33,15 @@
         padding: 0;
     }
 }
+
+#text-aboutus {
+        margin: 3rem 1rem;
+        padding: 2rem 1rem;
+        @include media-breakpoint-up(lg) {
+            margin: 3rem 10rem;
+            padding: 3rem;
+        }
+    }
 
 .glass-box {
     background: rgba(255, 255, 255, 0.1);

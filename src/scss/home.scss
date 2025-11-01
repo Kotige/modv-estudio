@@ -39,3 +39,16 @@
         }
     }
 }
+
+#hand-modv {
+    @include media-breakpoint-up(lg) {
+        margin-top: -2rem;
+        margin-left: 4rem;
+        margin-right: -4rem;
+
+        img {
+            width: 95%;
+            z-index: 1000;
+        }
+    }
+}
