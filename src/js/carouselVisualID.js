@@ -7,12 +7,12 @@ import img6 from '../assets/images/vital-cover.png';
 
 export function initVisualID() {
     const images = [
-        { src: img1, link: "../fucinn.html", title: "Fucinn Pet Lar", pin: "Rio de Janeiro - RJ" },
-        { src: img2, link: "../inove.html", title: "Inove Centro de Ensino", pin: "Cataguases - MG" },
-        { src: img3, link: "../livia.html", title: "Livia Rezende Fisioterapeuta", pin: "Oliveira - MG" },
-        { src: img4, link: "../teteu.html", title: "Teteu Moda Infantil", pin: "Capelinha - MG"},
-        { src: img5, link: "../tiebreak.html", title: "Tiebreak Encordoamento", pin: "Juiz de Fora - MG" },
-        { src: img6, link: "../vital.html", title: "Vital Material de Limpeza", pin: "Fortaleza - CE" }
+        { src: img1, link: "../pages/fucinn.html", title: "Fucinn Pet Lar", pin: "Rio de Janeiro - RJ" },
+        { src: img2, link: "../pages/inove.html", title: "Inove Centro de Ensino", pin: "Cataguases - MG" },
+        { src: img3, link: "../pages/livia.html", title: "Livia Rezende Fisioterapeuta", pin: "Oliveira - MG" },
+        { src: img4, link: "../pages/teteu.html", title: "Teteu Moda Infantil", pin: "Capelinha - MG"},
+        { src: img5, link: "../pages/tiebreak.html", title: "Tiebreak Encordoamento", pin: "Juiz de Fora - MG" },
+        { src: img6, link: "../pages/vital.html", title: "Vital Material de Limpeza", pin: "Fortaleza - CE" }
     ];
 
     let currentIndex = 0;
