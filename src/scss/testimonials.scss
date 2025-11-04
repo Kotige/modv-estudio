@@ -34,12 +34,12 @@
         }
     }
     #feedback {
-        background-image: url(../assets/images/feedback-mobile.png);
+        background-image: url(/assets/images/feedback-mobile.png);
         background-size:contain;
         background-position: center;
         background-repeat: no-repeat;
         @include media-breakpoint-up(lg) {
-            background-image: url(../assets/images/feedback-desktop.png);
+            background-image: url(/assets/images/feedback-desktop.png);
             background-size: contain;
         }
 

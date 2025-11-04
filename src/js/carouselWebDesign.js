@@ -1,16 +1,16 @@
-import site1 from '../assets/images/lavinia-cover2.png';
-import site2 from '../assets/images/lavinia-cover2.png';
-import site3 from '../assets/images/lavinia-cover2.png';
-import site4 from '../assets/images/lavinia-cover2.png';
-import site5 from '../assets/images/lavinia-cover2.png';
+import site1 from '/assets/images/lavinia-cover2.png';
+import site2 from '/assets/images/lavinia-cover2.png';
+import site3 from '/assets/images/lavinia-cover2.png';
+import site4 from '/assets/images/lavinia-cover2.png';
+import site5 from '/assets/images/lavinia-cover2.png';
 
 export function initWebDesign() {
     const images = [
-        { src: site1, link: "../lavinia.html", title: "Lavínia Barra Fisioterapeuta", pin: "Piedade do Rio Grande - MG" },
-        { src: site2, link: "../site2.html", title: "Site 2", pin: "local 2" },
-        { src: site3, link: "../site3.html", title: "Site 3", pin: "local 3" },
-        { src: site4, link: "../site4.html", title: "Site 4", pin: "local 4" },
-        { src: site5, link: "../site5.html", title: "Site 5", pin: "local 5" }
+        { src: site1, link: "/lavinia.html", title: "Lavínia Barra Fisioterapeuta", pin: "Piedade do Rio Grande - MG" },
+        { src: site2, link: "/site2.html", title: "Site 2", pin: "local 2" },
+        { src: site3, link: "/site3.html", title: "Site 3", pin: "local 3" },
+        { src: site4, link: "/site4.html", title: "Site 4", pin: "local 4" },
+        { src: site5, link: "/site5.html", title: "Site 5", pin: "local 5" }
     ];
 
     let currentIndex = 0;
