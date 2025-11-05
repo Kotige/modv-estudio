@@ -42,6 +42,7 @@ src/
   ├─ assets/
   │  └─ icons/
   │  └─ images/
+  │  └─ videos/
   ├─ js/
   │  └─ main.js
   ├─ scss/
