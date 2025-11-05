@@ -1,0 +1,53 @@
+@import "my-variables.scss";
+
+/* =========================
+    video player
+========================= */
+
+.custom-video-player {
+    position: relative;
+    height: 600px;
+    width: 330px;
+    max-width: 600px;
+    background: $dark-color;
+    overflow: hidden;
+}
+
+.custom-video-player video {
+    height: 100%;
+    width: auto;
+    display: block;
+    pointer-events: none;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.control-btn {
+    background: none;
+    border: none;
+    color: $off-white-color;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.control-btn:hover {
+    color: $primary-color;
+}
+
+.controls input[type="range"] {
+    flex: 1;
+    margin: 0 10px;
+    accent-color: $primary-color;
+    cursor: pointer;
+}

@@ -1,4 +1,5 @@
 @import "my-variables.scss";
+@import "videoplayer.scss";
 
 /* =========================
     testimonials
@@ -33,6 +34,12 @@
             margin-left: 3.5rem;
         }
     }
+
+    #test-videos {
+        height: 600px;
+        width: auto;
+    }
+
     #feedback {
         background-image: url(/assets/images/feedback-mobile.png);
         background-size:contain;

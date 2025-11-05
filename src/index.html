@@ -161,8 +161,22 @@
                     <img src="/assets/images/feedback6.png" class="my-3" alt="sexto comentário sobre nosso trabalho">
                 </div>
             </div>
-            <div class="col-md-4 col-12">
-                <iframe width="350" height="540" src="https://www.youtube.com/embed/gGCwgCe3WtQ?si=n2ykWhPmHdYO_2HB" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            <div class="col-md-4 col-12 d-flex justify-content-center">
+                <div class="custom-video-player">
+                    <video id="customVideo" src="/assets/videos/test-livia.mp4"></video>
+
+                    <div class="controls">
+                        <button id="playPauseBtn" class="control-btn">
+                            <i class="bi bi-play-fill"></i>
+                        </button>
+
+                        <input type="range" id="progressBar" value="0" min="0" max="100">
+
+                        <button id="muteBtn" class="control-btn">
+                            <i class="bi bi-volume-up-fill"></i>
+                        </but>
+                    </div>
+</div>
             </div>
         </div>
         <div class="row align-items-center mt-5">
