@@ -3,13 +3,22 @@ import '/scss/styles.scss'
 
 import {initVisualID} from '/js/carouselVisualID.js';
 import {initWebDesign} from '/js/carouselWebDesign.js';
+import { initLazyLoading } from '/js/lazyLoading';
 
 // Import all of Bootstrap’s JS
 import * as bootstrap from 'bootstrap'
 
+// Not possible to click on images
+document.addEventListener('contextmenu', (e) => {
+    if (e.target.tagName === 'IMG') {
+        e.preventDefault();
+    }
+});
+
 document.addEventListener("DOMContentLoaded", () => {
     initVisualID();
     initWebDesign();
+    initLazyLoading();
 });
 
 // Smooth scroll function
