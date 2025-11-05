@@ -89,7 +89,7 @@ A modv estúdio nasceu da ideia de unir design e desenvolvimento em um só lugar
 ---
 
 ## 🧑‍💻 Autores
-- 🎨 Designer: [Devanir Alves](https://www.behance.net/devaniralves)
+- 🎨 Designer: [Devanir Pinheiro](https://www.behance.net/devaniralves)
 - 💻 Front-End Developer: Vítor Barra ([Kotige](https://github.com/Kotige))
 - 📫 [modvestudio.com.br](https://modvestudio.com.br)
 
