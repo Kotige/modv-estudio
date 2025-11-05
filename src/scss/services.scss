@@ -21,4 +21,10 @@
         color: $primary-color;
         font-size: clamp(3rem, 2vw + 1rem, 5rem);
     }
+    h3{
+        font-size: clamp(1rem, 1vw + 1rem, 2rem);
+    }
+    #pin-location, #pin-location-web {
+        font-size: clamp(.5rem, 1vw + .5rem, 1rem);
+    }
 }
