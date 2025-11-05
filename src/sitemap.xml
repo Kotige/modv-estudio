@@ -11,43 +11,49 @@
         <priority>1.0</priority>
     </url>
 
-    <!-- Services -->
+    <!-- Project Pages -->
     <url>
         <loc>https://modvestudio.com.br/fucinn</loc>
         <lastmod>2025-11-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
+
     <url>
         <loc>https://modvestudio.com.br/livia</loc>
         <lastmod>2025-11-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
+
     <url>
         <loc>https://modvestudio.com.br/vital</loc>
         <lastmod>2025-11-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
+
     <url>
         <loc>https://modvestudio.com.br/teteu</loc>
         <lastmod>2025-11-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
+
     <url>
         <loc>https://modvestudio.com.br/inove</loc>
         <lastmod>2025-11-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
+
     <url>
-        <loc>https://modvestudio.com.br/tiebrack</loc>
+        <loc>https://modvestudio.com.br/tiebreak</loc>
         <lastmod>2025-11-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
+
     <url>
         <loc>https://modvestudio.com.br/lavinia</loc>
         <lastmod>2025-11-04</lastmod>
