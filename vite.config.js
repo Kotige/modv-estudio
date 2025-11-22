@@ -14,7 +14,8 @@ export default {
             livia: resolve(__dirname, 'src/livia.html'),
             teteu: resolve(__dirname, 'src/teteu.html'),
             tiebreak: resolve(__dirname, 'src/tiebreak.html'),
-            vital: resolve(__dirname, 'src/vital.html')
+            vital: resolve(__dirname, 'src/vital.html'),
+            nina: resolve(__dirname, 'src/nina.html'),
         }
     }
     },
