@@ -16,6 +16,7 @@ export default {
             tiebreak: resolve(__dirname, 'src/tiebreak.html'),
             vital: resolve(__dirname, 'src/vital.html'),
             nina: resolve(__dirname, 'src/nina.html'),
+            aginteriores: resolve(__dirname, 'src/aginteriores.html')
         }
     }
     },
