@@ -1,9 +1,9 @@
-import img1 from '/assets/images/fucinn-cover.png'; 
-import img2 from '/assets/images/inove-cover.png'; 
-import img3 from '/assets/images/livia-cover.png';
-import img4 from '/assets/images/teteu-cover.png';
-import img5 from '/assets/images/tiebreak-cover.png';
-import img6 from '/assets/images/vital-cover.png';
+import img1 from '/assets/images/fucinn-cover.webp'; 
+import img2 from '/assets/images/inove-cover.webp'; 
+import img3 from '/assets/images/livia-cover.webp';
+import img4 from '/assets/images/teteu-cover.webp';
+import img5 from '/assets/images/tiebreak-cover.webp';
+import img6 from '/assets/images/vital-cover.webp';
 
 export function initVisualID() {
     const images = [

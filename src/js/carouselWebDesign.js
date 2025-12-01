@@ -1,6 +1,6 @@
-import site1 from '/assets/images/lavinia-cover2.png';
+import site1 from '/assets/images/lavinia-cover2.webp';
 import site2 from '/assets/images/nina-cover.png';
-import site3 from '/assets/images/aginteriores-cover.png';
+import site3 from '/assets/images/aginteriores-cover.webp';
 // import site4 from '/assets/images/lavinia-cover2.png';
 // import site5 from '/assets/images/lavinia-cover2.png';
 
